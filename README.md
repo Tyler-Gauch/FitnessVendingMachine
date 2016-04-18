@@ -1,7 +1,18 @@
 # VendFitMachine
 
-Current Code can be run on arduino or spark/particle.  In order to run on particle either use the web ide or the particle cli.  If using the particle cli you can use the flash script to compile and flash the device.  Make sure it is in DFU mode (Hold the mode and rst button until light turns off then let go of rst until light blinks yellow)
+This repository contains the source code for the VendFit Vending Machine written in C++ for a Raspberry PI.
 
-Current Functionality
-=====================
-Annoyingly turn 4 servos 
+All current compiled executables are in the *bin* folder, all .h files are in the *inc* folder and all .cpp files are in the *src* folder.  
+
+Installing
+==========
+Download or clone the Github repository.  
+Open a terminal and navigate to the root directory of the project.
+Make sure you have make and g++ installed.
+run *make*
+
+Running
+=======
+Open a terminal and navigate to the root directory of the project.
+run *make*
+run *./bin/VendFitMachine*
